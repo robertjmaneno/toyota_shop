@@ -13,10 +13,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Toyota Shop App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
-      ),
       home: MainScreen(),
     );
   }
