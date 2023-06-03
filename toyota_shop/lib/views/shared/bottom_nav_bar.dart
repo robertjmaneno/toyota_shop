@@ -3,7 +3,12 @@ import 'package:flutter/material.dart';
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({
     super.key,
+    this.onTap,
+    this.icon,
   });
+
+  final void Function()? onTap;
+  final IconData? icon;
 
   @override
   Widget build(BuildContext context) {
