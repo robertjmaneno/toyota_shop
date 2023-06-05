@@ -13,12 +13,12 @@ class BottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: onTap,
       child: SizedBox(
         height: 36,
         width: 36,
         child: Icon(
-          Icons.home,
+          icon,
           color: Colors.white,
         ),
       ),
