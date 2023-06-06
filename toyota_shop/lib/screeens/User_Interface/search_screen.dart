@@ -12,9 +12,12 @@ class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text(
-        'This is Search Page',
-        style: appStyle(40, Colors.green, FontWeight.bold),
+      backgroundColor: const Color(0xFFE2E2E2),
+      body: Center(
+        child: Text(
+          'This is Search Page',
+          style: appStyle(40, Colors.green, FontWeight.bold),
+        ),
       ),
     );
   }
