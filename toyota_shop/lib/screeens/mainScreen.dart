@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:toyota_shop/screeens/User_Interface/homeScreen.dart';
 import 'package:toyota_shop/views/shared/appStyle.dart';
 import 'package:toyota_shop/views/shared/bottom_nav_bar.dart';
 
 class MainScreen extends StatelessWidget {
   MainScreen({super.key});
 
-  List<Widget> pageList = [];
+  List<Widget> pageList = [HomePage()];
 
   @override
   Widget build(BuildContext context) {
