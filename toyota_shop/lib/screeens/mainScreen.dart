@@ -28,7 +28,7 @@ class MainScreen extends StatelessWidget {
           padding: EdgeInsets.all(10),
           child: Container(
             padding: EdgeInsets.all(8),
-            margin: EdgeInsets.symmetric(horizontal: 10),
+            margin: EdgeInsets.symmetric(horizontal: 1),
             decoration: BoxDecoration(
               color: Colors.green[600],
               borderRadius: BorderRadius.all(
