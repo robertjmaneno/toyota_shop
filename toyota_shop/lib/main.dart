@@ -5,7 +5,7 @@ import 'package:toyota_shop/screeens/mainScreen.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
-    ChangeNotifierProvider(create: (context) => MainScreenNotifier())
+    ChangeNotifierProvider(create: ((context) => MainScreenNotifier()))
   ], child: MyApp()));
 }
 

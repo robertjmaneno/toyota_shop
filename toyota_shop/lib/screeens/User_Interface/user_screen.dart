@@ -15,7 +15,7 @@ class _ProfilePageState extends State<ProfilePage> {
       backgroundColor: const Color(0xFFE2E2E2),
       body: Center(
         child: Text(
-          'This is Home',
+          'This is Profile',
           style: appStyle(40, Colors.green, FontWeight.bold),
         ),
       ),
